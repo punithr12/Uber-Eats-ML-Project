@@ -1,0 +1,501 @@
+restaurant_id,restaurant_name,city,cuisine_type,restaurant_category,rating,avg_prep_time_min,avg_order_value,total_orders,is_chain
+20001,Restaurant_1,Bangalore,Indian,Budget,3.9,14,336.39,8854,False
+20002,Restaurant_2,Mumbai,Burgers,Mid-range,3.84,16,414.52,7146,False
+20003,Restaurant_3,Mumbai,South Indian,Budget,3.6,28,211.08,4128,True
+20004,Restaurant_4,Chennai,South Indian,Mid-range,4.01,28,351.7,3143,True
+20005,Restaurant_5,Hyderabad,South Indian,Budget,4.12,21,284.12,1951,False
+20006,Restaurant_6,Mumbai,South Indian,Premium,4.32,18,1386.71,9871,True
+20007,Restaurant_7,Bangalore,Chinese,Mid-range,4.27,26,526.13,1456,False
+20008,Restaurant_8,Mumbai,Pizza,Budget,4.32,22,337.19,8012,False
+20009,Restaurant_9,Hyderabad,Chinese,Premium,3.2,27,1086.5,4126,False
+20010,Restaurant_10,Chennai,Desserts,Premium,3.99,10,898.29,9131,False
+20011,Restaurant_11,Delhi,Indian,Budget,3.6,24,189.2,1143,False
+20012,Restaurant_12,Pune,Biryani,Mid-range,4.0,32,445.92,5135,False
+20013,Restaurant_13,Mumbai,South Indian,Premium,4.06,13,1374.36,787,True
+20014,Restaurant_14,Bangalore,Indian,Mid-range,4.09,15,565.96,5549,False
+20015,Restaurant_15,Hyderabad,Burgers,Budget,3.28,22,198.22,9202,True
+20016,Restaurant_16,Mumbai,Pizza,Mid-range,5.0,25,451.12,8495,False
+20017,Restaurant_17,Delhi,Burgers,Budget,5.0,16,190.75,9755,False
+20018,Restaurant_18,Chennai,Pizza,Mid-range,3.72,26,617.81,5403,True
+20019,Restaurant_19,Mumbai,Burgers,Budget,3.5,14,204.7,3217,False
+20020,Restaurant_20,Hyderabad,Desserts,Mid-range,5.0,25,523.59,4636,True
+20021,Restaurant_21,Mumbai,Burgers,Mid-range,4.5,15,372.4,2701,False
+20022,Restaurant_22,Chennai,Biryani,Mid-range,4.34,34,489.27,2155,False
+20023,Restaurant_23,Hyderabad,Pizza,Premium,3.45,17,1364.76,113,False
+20024,Restaurant_24,Pune,Indian,Mid-range,4.73,15,591.9,893,False
+20025,Restaurant_25,Delhi,Desserts,Budget,3.61,17,178.27,2249,False
+20026,Restaurant_26,Bangalore,Burgers,Budget,3.92,12,280.43,5248,True
+20027,Restaurant_27,Pune,Desserts,Mid-range,4.62,18,514.04,6946,True
+20028,Restaurant_28,Chennai,Pizza,Mid-range,3.81,29,468.43,1904,False
+20029,Restaurant_29,Mumbai,Pizza,Mid-range,4.1,28,358.57,5177,True
+20030,Restaurant_30,Delhi,Burgers,Mid-range,4.53,28,612.31,2128,False
+20031,Restaurant_31,Hyderabad,Indian,Budget,3.46,25,280.06,4638,False
+20032,Restaurant_32,Pune,Desserts,Mid-range,4.52,25,672.14,859,False
+20033,Restaurant_33,Hyderabad,South Indian,Budget,4.72,27,292.47,3960,True
+20034,Restaurant_34,Hyderabad,Biryani,Premium,3.97,25,1261.14,7618,False
+20035,Restaurant_35,Mumbai,Chinese,Mid-range,4.55,25,322.29,1741,True
+20036,Restaurant_36,Pune,South Indian,Budget,3.65,14,347.5,7291,False
+20037,Restaurant_37,Chennai,Burgers,Mid-range,3.31,12,421.37,1912,False
+20038,Restaurant_38,Pune,Burgers,Budget,3.11,16,249.08,1916,False
+20039,Restaurant_39,Delhi,Biryani,Mid-range,4.23,29,508.76,1925,True
+20040,Restaurant_40,Hyderabad,Desserts,Budget,4.2,23,245.28,3285,False
+20041,Restaurant_41,Bangalore,Pizza,Mid-range,3.74,17,493.92,661,False
+20042,Restaurant_42,Chennai,Desserts,Budget,4.53,10,334.19,337,True
+20043,Restaurant_43,Delhi,Biryani,Mid-range,3.71,37,585.69,6078,False
+20044,Restaurant_44,Delhi,Indian,Mid-range,3.44,17,354.85,9152,False
+20045,Restaurant_45,Hyderabad,Biryani,Budget,3.57,39,297.73,5933,True
+20046,Restaurant_46,Bangalore,Biryani,Budget,4.64,35,225.09,7567,True
+20047,Restaurant_47,Hyderabad,Indian,Budget,4.38,15,207.02,2307,True
+20048,Restaurant_48,Chennai,Burgers,Mid-range,3.92,19,340.02,5657,True
+20049,Restaurant_49,Mumbai,Indian,Premium,3.88,12,1276.99,5103,True
+20050,Restaurant_50,Chennai,Chinese,Mid-range,3.74,15,370.18,2749,True
+20051,Restaurant_51,Bangalore,Biryani,Budget,2.9,35,262.67,5414,True
+20052,Restaurant_52,Mumbai,Indian,Budget,3.28,11,341.02,4813,False
+20053,Restaurant_53,Pune,Indian,Budget,3.94,28,322.36,5678,True
+20054,Restaurant_54,Pune,Biryani,Mid-range,4.27,28,594.66,8362,True
+20055,Restaurant_55,Delhi,Desserts,Budget,3.85,13,199.46,7165,True
+20056,Restaurant_56,Hyderabad,Desserts,Budget,3.3,12,213.07,5715,False
+20057,Restaurant_57,Pune,Pizza,Budget,4.73,15,247.96,6275,False
+20058,Restaurant_58,Chennai,Burgers,Budget,3.38,12,293.23,7945,False
+20059,Restaurant_59,Hyderabad,Indian,Mid-range,4.01,20,322.86,1335,False
+20060,Restaurant_60,Chennai,Desserts,Mid-range,4.07,19,445.06,5042,True
+20061,Restaurant_61,Hyderabad,Desserts,Budget,5.0,12,334.66,562,False
+20062,Restaurant_62,Pune,Burgers,Budget,3.58,18,187.25,6490,True
+20063,Restaurant_63,Mumbai,Indian,Premium,4.02,25,1294.82,3900,False
+20064,Restaurant_64,Hyderabad,Indian,Budget,4.08,27,318.59,5929,True
+20065,Restaurant_65,Bangalore,Indian,Budget,3.49,14,264.96,6576,False
+20066,Restaurant_66,Bangalore,Desserts,Budget,4.14,24,217.62,5294,True
+20067,Restaurant_67,Pune,Desserts,Budget,3.8,25,191.72,9405,False
+20068,Restaurant_68,Hyderabad,Desserts,Budget,3.86,27,192.49,2940,True
+20069,Restaurant_69,Pune,Pizza,Mid-range,3.67,26,519.31,151,False
+20070,Restaurant_70,Delhi,Indian,Budget,4.53,13,250.79,7279,True
+20071,Restaurant_71,Bangalore,Desserts,Mid-range,3.94,22,421.91,5868,False
+20072,Restaurant_72,Chennai,South Indian,Mid-range,3.64,10,435.18,9607,True
+20073,Restaurant_73,Pune,Chinese,Budget,3.03,11,221.32,3268,False
+20074,Restaurant_74,Hyderabad,Biryani,Budget,4.85,39,152.7,7179,False
+20075,Restaurant_75,Hyderabad,Biryani,Mid-range,4.03,20,517.28,5307,False
+20076,Restaurant_76,Bangalore,Desserts,Premium,4.58,22,657.35,5272,False
+20077,Restaurant_77,Delhi,Indian,Mid-range,4.56,23,330.19,5060,False
+20078,Restaurant_78,Chennai,Biryani,Mid-range,4.17,31,655.6,3332,True
+20079,Restaurant_79,Bangalore,South Indian,Budget,4.41,17,191.13,3456,True
+20080,Restaurant_80,Bangalore,Burgers,Mid-range,4.57,18,388.21,4105,False
+20081,Restaurant_81,Pune,Pizza,Budget,3.53,15,285.78,8083,False
+20082,Restaurant_82,Mumbai,Burgers,Mid-range,4.4,12,587.83,1072,False
+20083,Restaurant_83,Pune,Pizza,Budget,4.13,19,264.99,9118,False
+20084,Restaurant_84,Bangalore,Burgers,Budget,3.6,17,190.34,417,True
+20085,Restaurant_85,Chennai,Burgers,Budget,4.39,25,229.59,866,True
+20086,Restaurant_86,Mumbai,Chinese,Mid-range,3.57,26,682.7,2578,False
+20087,Restaurant_87,Delhi,Chinese,Mid-range,4.25,19,699.41,3998,False
+20088,Restaurant_88,Delhi,Chinese,Mid-range,4.13,10,305.79,2533,False
+20089,Restaurant_89,Bangalore,Desserts,Mid-range,3.71,28,336.52,5820,True
+20090,Restaurant_90,Chennai,Burgers,Budget,4.85,27,211.78,1117,False
+20091,Restaurant_91,Delhi,Desserts,Premium,4.39,27,1289.15,6780,False
+20092,Restaurant_92,Chennai,Biryani,Budget,3.64,24,252.8,2261,False
+20093,Restaurant_93,Pune,Desserts,Budget,4.56,14,268.44,6119,True
+20094,Restaurant_94,Pune,Pizza,Budget,3.84,18,232.63,7211,False
+20095,Restaurant_95,Chennai,Chinese,Premium,3.82,10,786.85,3141,True
+20096,Restaurant_96,Mumbai,Pizza,Budget,4.43,25,323.64,4453,False
+20097,Restaurant_97,Bangalore,Pizza,Mid-range,4.3,22,419.94,6198,False
+20098,Restaurant_98,Chennai,Indian,Budget,3.89,14,308.78,5055,False
+20099,Restaurant_99,Chennai,South Indian,Mid-range,4.71,29,610.39,9605,False
+20100,Restaurant_100,Pune,Burgers,Budget,3.65,27,290.11,1804,True
+20101,Restaurant_101,Chennai,South Indian,Mid-range,4.64,17,579.45,361,False
+20102,Restaurant_102,Bangalore,Burgers,Budget,3.66,24,333.4,6783,False
+20103,Restaurant_103,Mumbai,Pizza,Budget,4.17,18,343.46,1259,False
+20104,Restaurant_104,Pune,Desserts,Mid-range,3.84,25,524.21,1764,True
+20105,Restaurant_105,Chennai,South Indian,Budget,4.36,29,219.28,9651,False
+20106,Restaurant_106,Hyderabad,Indian,Budget,3.08,21,205.3,2102,False
+20107,Restaurant_107,Pune,South Indian,Budget,3.53,11,186.49,7541,True
+20108,Restaurant_108,Mumbai,Biryani,Mid-range,4.26,24,403.27,2369,False
+20109,Restaurant_109,Bangalore,South Indian,Budget,4.4,29,173.72,5555,False
+20110,Restaurant_110,Delhi,Indian,Premium,3.71,22,839.23,9267,False
+20111,Restaurant_111,Chennai,Indian,Premium,4.48,28,733.82,9838,False
+20112,Restaurant_112,Hyderabad,Chinese,Budget,3.69,22,187.58,1863,False
+20113,Restaurant_113,Delhi,Biryani,Budget,4.23,34,186.9,514,True
+20114,Restaurant_114,Pune,Burgers,Premium,3.94,25,1453.56,7670,False
+20115,Restaurant_115,Delhi,Pizza,Budget,3.32,15,321.96,8918,False
+20116,Restaurant_116,Chennai,South Indian,Mid-range,4.79,16,337.36,6628,True
+20117,Restaurant_117,Chennai,South Indian,Mid-range,3.75,11,598.42,4134,True
+20118,Restaurant_118,Delhi,Pizza,Budget,3.67,28,323.82,6187,True
+20119,Restaurant_119,Hyderabad,Indian,Premium,3.83,13,917.23,752,False
+20120,Restaurant_120,Mumbai,Desserts,Mid-range,3.81,10,400.23,612,True
+20121,Restaurant_121,Chennai,Indian,Mid-range,4.09,25,364.06,2544,False
+20122,Restaurant_122,Chennai,South Indian,Mid-range,3.79,15,374.97,9101,False
+20123,Restaurant_123,Bangalore,South Indian,Budget,3.76,28,190.5,3009,False
+20124,Restaurant_124,Chennai,Desserts,Mid-range,4.22,14,412.47,8794,False
+20125,Restaurant_125,Bangalore,Pizza,Mid-range,4.0,23,454.07,8331,True
+20126,Restaurant_126,Delhi,Pizza,Budget,4.21,18,240.68,321,True
+20127,Restaurant_127,Hyderabad,Desserts,Premium,3.87,14,1350.35,7194,False
+20128,Restaurant_128,Bangalore,Desserts,Mid-range,4.14,10,653.8,9757,False
+20129,Restaurant_129,Bangalore,Biryani,Budget,3.32,28,331.81,8261,False
+20130,Restaurant_130,Mumbai,Burgers,Budget,4.49,19,260.48,1127,True
+20131,Restaurant_131,Delhi,Desserts,Mid-range,3.82,11,571.9,6163,True
+20132,Restaurant_132,Bangalore,Indian,Budget,3.9,29,170.75,9771,False
+20133,Restaurant_133,Bangalore,Chinese,Mid-range,4.25,23,508.9,7122,True
+20134,Restaurant_134,Delhi,Biryani,Premium,4.11,31,1344.25,5203,True
+20135,Restaurant_135,Chennai,Chinese,Mid-range,4.29,19,512.79,1141,True
+20136,Restaurant_136,Hyderabad,Biryani,Mid-range,4.62,27,496.79,5561,False
+20137,Restaurant_137,Pune,Pizza,Mid-range,3.89,29,483.55,2006,False
+20138,Restaurant_138,Pune,Burgers,Budget,3.98,17,233.7,7190,True
+20139,Restaurant_139,Delhi,South Indian,Mid-range,5.0,25,455.07,3545,False
+20140,Restaurant_140,Pune,Pizza,Budget,3.79,17,158.17,8081,False
+20141,Restaurant_141,Mumbai,Pizza,Mid-range,3.7,18,354.23,7973,False
+20142,Restaurant_142,Pune,Biryani,Mid-range,4.36,22,651.83,7072,False
+20143,Restaurant_143,Mumbai,Pizza,Budget,4.42,24,259.37,997,False
+20144,Restaurant_144,Hyderabad,Chinese,Premium,4.38,11,786.29,3590,False
+20145,Restaurant_145,Mumbai,Pizza,Mid-range,3.7,17,347.28,4009,False
+20146,Restaurant_146,Delhi,Burgers,Premium,3.94,11,670.06,7719,False
+20147,Restaurant_147,Chennai,Chinese,Premium,4.0,29,955.88,676,False
+20148,Restaurant_148,Pune,Burgers,Mid-range,3.87,12,337.35,6290,False
+20149,Restaurant_149,Mumbai,Biryani,Mid-range,4.07,37,386.12,5437,False
+20150,Restaurant_150,Delhi,Chinese,Budget,3.86,20,211.32,1344,True
+20151,Restaurant_151,Mumbai,Biryani,Mid-range,4.69,30,332.53,3182,False
+20152,Restaurant_152,Bangalore,Desserts,Budget,3.55,23,160.01,289,False
+20153,Restaurant_153,Bangalore,Desserts,Mid-range,4.79,23,471.03,7143,False
+20154,Restaurant_154,Chennai,Burgers,Mid-range,3.44,29,574.27,6149,False
+20155,Restaurant_155,Pune,Indian,Premium,4.89,20,824.8,6850,True
+20156,Restaurant_156,Bangalore,Indian,Mid-range,4.42,20,693.51,6573,False
+20157,Restaurant_157,Bangalore,Chinese,Mid-range,3.69,27,362.11,7448,True
+20158,Restaurant_158,Mumbai,Indian,Budget,4.0,20,291.35,4730,True
+20159,Restaurant_159,Mumbai,South Indian,Premium,4.32,23,1129.8,1172,False
+20160,Restaurant_160,Hyderabad,Biryani,Mid-range,4.32,28,353.15,9024,True
+20161,Restaurant_161,Chennai,Burgers,Mid-range,3.95,27,515.55,3794,False
+20162,Restaurant_162,Bangalore,Chinese,Premium,3.54,13,1467.93,4340,False
+20163,Restaurant_163,Hyderabad,Biryani,Premium,4.47,24,1406.86,5518,True
+20164,Restaurant_164,Mumbai,Indian,Mid-range,4.13,11,312.97,1732,True
+20165,Restaurant_165,Pune,Chinese,Premium,4.63,28,1340.1,1438,False
+20166,Restaurant_166,Hyderabad,South Indian,Mid-range,3.95,18,387.59,825,True
+20167,Restaurant_167,Bangalore,Chinese,Mid-range,4.09,20,680.0,2685,False
+20168,Restaurant_168,Hyderabad,Chinese,Mid-range,4.64,26,584.21,4539,True
+20169,Restaurant_169,Delhi,Desserts,Budget,4.11,14,318.02,5149,False
+20170,Restaurant_170,Chennai,Desserts,Budget,3.42,18,267.93,7296,True
+20171,Restaurant_171,Bangalore,Biryani,Mid-range,3.35,26,566.36,5334,False
+20172,Restaurant_172,Delhi,Pizza,Premium,3.22,17,871.29,1389,False
+20173,Restaurant_173,Pune,Pizza,Mid-range,3.61,27,698.97,581,False
+20174,Restaurant_174,Hyderabad,Pizza,Mid-range,3.81,24,562.95,5329,False
+20175,Restaurant_175,Pune,Pizza,Mid-range,4.4,24,658.95,8696,True
+20176,Restaurant_176,Bangalore,Burgers,Budget,4.46,16,216.95,3801,True
+20177,Restaurant_177,Hyderabad,South Indian,Mid-range,3.06,25,414.39,5854,False
+20178,Restaurant_178,Chennai,Desserts,Mid-range,4.28,24,474.89,4106,False
+20179,Restaurant_179,Pune,Chinese,Premium,3.83,13,1448.38,9008,False
+20180,Restaurant_180,Pune,Desserts,Mid-range,4.16,24,306.38,1957,False
+20181,Restaurant_181,Chennai,Biryani,Mid-range,4.87,38,569.98,2910,False
+20182,Restaurant_182,Mumbai,South Indian,Budget,3.63,11,289.13,5353,False
+20183,Restaurant_183,Delhi,Chinese,Budget,4.22,17,200.65,6756,False
+20184,Restaurant_184,Chennai,Biryani,Mid-range,4.48,23,398.38,8575,False
+20185,Restaurant_185,Delhi,Pizza,Mid-range,4.04,27,565.77,8174,False
+20186,Restaurant_186,Hyderabad,Burgers,Premium,3.72,25,1119.8,6154,True
+20187,Restaurant_187,Delhi,Chinese,Mid-range,3.71,14,673.54,223,True
+20188,Restaurant_188,Pune,Chinese,Mid-range,3.78,27,345.04,7464,False
+20189,Restaurant_189,Bangalore,Indian,Budget,4.11,29,193.18,3573,False
+20190,Restaurant_190,Mumbai,Burgers,Budget,3.69,20,158.74,9847,True
+20191,Restaurant_191,Delhi,Burgers,Premium,4.27,11,997.03,9647,False
+20192,Restaurant_192,Delhi,Burgers,Mid-range,4.19,16,330.89,6078,False
+20193,Restaurant_193,Chennai,South Indian,Budget,3.23,24,256.26,2461,True
+20194,Restaurant_194,Bangalore,Pizza,Mid-range,4.51,29,400.53,8901,False
+20195,Restaurant_195,Chennai,Indian,Mid-range,4.99,11,654.12,225,False
+20196,Restaurant_196,Delhi,South Indian,Budget,3.78,13,291.89,9023,True
+20197,Restaurant_197,Hyderabad,Biryani,Premium,4.41,31,810.43,7628,False
+20198,Restaurant_198,Chennai,Pizza,Budget,4.61,20,187.28,2430,False
+20199,Restaurant_199,Chennai,Desserts,Mid-range,4.32,13,489.65,1721,False
+20200,Restaurant_200,Bangalore,Chinese,Premium,4.25,17,820.08,8623,False
+20201,Restaurant_201,Pune,Indian,Mid-range,3.24,16,490.36,7201,True
+20202,Restaurant_202,Chennai,South Indian,Premium,3.87,22,1114.05,9060,False
+20203,Restaurant_203,Chennai,Indian,Budget,3.93,14,223.43,6888,True
+20204,Restaurant_204,Mumbai,Pizza,Mid-range,4.6,17,589.78,7187,True
+20205,Restaurant_205,Delhi,Biryani,Mid-range,3.42,34,400.03,9960,False
+20206,Restaurant_206,Bangalore,Biryani,Mid-range,4.88,34,406.32,5290,False
+20207,Restaurant_207,Chennai,South Indian,Mid-range,4.74,20,537.51,2429,False
+20208,Restaurant_208,Pune,Desserts,Mid-range,3.55,15,640.97,6548,False
+20209,Restaurant_209,Pune,Biryani,Budget,3.44,21,172.2,1961,False
+20210,Restaurant_210,Delhi,South Indian,Mid-range,4.49,12,379.31,1952,True
+20211,Restaurant_211,Bangalore,Indian,Mid-range,3.87,29,387.13,358,False
+20212,Restaurant_212,Pune,Chinese,Mid-range,3.89,15,546.81,7434,True
+20213,Restaurant_213,Chennai,Chinese,Mid-range,4.44,24,341.36,3761,False
+20214,Restaurant_214,Hyderabad,Chinese,Budget,3.47,12,194.22,6932,True
+20215,Restaurant_215,Pune,Pizza,Budget,4.44,25,276.06,631,False
+20216,Restaurant_216,Mumbai,Indian,Premium,3.44,11,1170.67,1565,True
+20217,Restaurant_217,Bangalore,Biryani,Premium,3.42,36,686.8,527,False
+20218,Restaurant_218,Hyderabad,Pizza,Mid-range,4.41,28,300.86,236,False
+20219,Restaurant_219,Bangalore,Pizza,Mid-range,4.31,23,364.67,6946,True
+20220,Restaurant_220,Bangalore,Biryani,Mid-range,3.02,27,439.0,7529,False
+20221,Restaurant_221,Mumbai,Chinese,Mid-range,4.4,21,471.98,3785,True
+20222,Restaurant_222,Hyderabad,Chinese,Budget,4.87,17,217.5,9103,False
+20223,Restaurant_223,Chennai,Chinese,Budget,4.05,12,247.25,6248,False
+20224,Restaurant_224,Delhi,Desserts,Budget,4.58,20,241.16,7408,False
+20225,Restaurant_225,Hyderabad,Biryani,Mid-range,3.9,27,466.41,1499,False
+20226,Restaurant_226,Pune,Indian,Budget,4.49,18,234.22,3826,True
+20227,Restaurant_227,Bangalore,Indian,Premium,2.81,24,973.8,3920,True
+20228,Restaurant_228,Pune,Biryani,Premium,3.72,20,1400.56,2659,False
+20229,Restaurant_229,Hyderabad,Chinese,Mid-range,5.0,19,642.81,4379,False
+20230,Restaurant_230,Delhi,Pizza,Budget,4.68,20,223.52,1324,False
+20231,Restaurant_231,Pune,Indian,Mid-range,3.86,16,564.53,8637,False
+20232,Restaurant_232,Hyderabad,South Indian,Mid-range,3.99,18,425.87,1153,False
+20233,Restaurant_233,Delhi,Pizza,Budget,3.5,22,346.82,8761,False
+20234,Restaurant_234,Mumbai,Biryani,Mid-range,4.01,36,385.32,3068,False
+20235,Restaurant_235,Bangalore,Pizza,Budget,3.23,25,230.81,6567,True
+20236,Restaurant_236,Chennai,Desserts,Mid-range,4.24,13,487.91,6527,True
+20237,Restaurant_237,Hyderabad,Burgers,Mid-range,3.75,11,419.51,9305,False
+20238,Restaurant_238,Mumbai,Indian,Mid-range,4.32,26,451.86,4268,False
+20239,Restaurant_239,Pune,Desserts,Premium,3.74,16,652.06,5346,False
+20240,Restaurant_240,Hyderabad,South Indian,Mid-range,3.72,20,671.99,9188,True
+20241,Restaurant_241,Mumbai,Indian,Premium,4.41,29,1159.19,2369,True
+20242,Restaurant_242,Delhi,Desserts,Budget,3.8,27,308.55,8622,True
+20243,Restaurant_243,Mumbai,Pizza,Mid-range,3.83,15,626.28,6540,False
+20244,Restaurant_244,Pune,Biryani,Budget,4.68,25,275.49,680,True
+20245,Restaurant_245,Pune,Indian,Mid-range,4.67,28,352.14,1594,False
+20246,Restaurant_246,Delhi,Pizza,Premium,4.39,26,954.54,8246,False
+20247,Restaurant_247,Mumbai,South Indian,Mid-range,4.01,17,576.25,1003,False
+20248,Restaurant_248,Hyderabad,Pizza,Premium,5.0,15,882.77,6814,False
+20249,Restaurant_249,Chennai,Desserts,Mid-range,4.63,10,654.35,2004,False
+20250,Restaurant_250,Bangalore,Biryani,Budget,3.71,22,292.76,2951,False
+20251,Restaurant_251,Pune,Chinese,Budget,4.34,13,205.51,8986,False
+20252,Restaurant_252,Chennai,Biryani,Budget,3.56,35,158.74,6064,False
+20253,Restaurant_253,Mumbai,Pizza,Mid-range,4.2,19,603.73,9793,False
+20254,Restaurant_254,Delhi,Chinese,Mid-range,3.92,27,402.19,8460,False
+20255,Restaurant_255,Pune,South Indian,Mid-range,3.76,27,412.21,670,True
+20256,Restaurant_256,Pune,South Indian,Premium,4.21,17,1181.38,9633,False
+20257,Restaurant_257,Hyderabad,Pizza,Mid-range,3.62,25,599.99,4265,False
+20258,Restaurant_258,Bangalore,Chinese,Budget,3.89,14,277.44,7767,False
+20259,Restaurant_259,Bangalore,Pizza,Budget,4.21,16,286.76,5064,False
+20260,Restaurant_260,Hyderabad,Desserts,Mid-range,4.05,26,652.81,8244,True
+20261,Restaurant_261,Mumbai,South Indian,Premium,3.92,15,1248.79,2759,True
+20262,Restaurant_262,Bangalore,Chinese,Budget,3.87,20,224.93,9291,False
+20263,Restaurant_263,Hyderabad,Burgers,Premium,3.88,19,1253.87,4291,False
+20264,Restaurant_264,Mumbai,Burgers,Mid-range,4.72,16,456.95,889,True
+20265,Restaurant_265,Hyderabad,South Indian,Premium,4.47,16,1062.52,9690,False
+20266,Restaurant_266,Bangalore,Biryani,Mid-range,3.25,31,678.64,4548,True
+20267,Restaurant_267,Chennai,Chinese,Premium,3.55,22,1346.63,3705,True
+20268,Restaurant_268,Bangalore,Pizza,Mid-range,3.45,23,483.26,4789,False
+20269,Restaurant_269,Bangalore,Biryani,Budget,3.8,28,176.33,496,False
+20270,Restaurant_270,Chennai,Biryani,Budget,4.56,24,269.23,1589,False
+20271,Restaurant_271,Mumbai,Desserts,Mid-range,3.64,25,699.52,8262,False
+20272,Restaurant_272,Pune,South Indian,Budget,4.21,20,269.93,8181,False
+20273,Restaurant_273,Pune,South Indian,Budget,4.5,27,287.63,7341,False
+20274,Restaurant_274,Hyderabad,Indian,Budget,3.03,24,322.27,7683,True
+20275,Restaurant_275,Mumbai,Biryani,Mid-range,3.76,39,601.57,4702,False
+20276,Restaurant_276,Mumbai,Biryani,Mid-range,3.28,34,642.03,5121,False
+20277,Restaurant_277,Hyderabad,Desserts,Premium,3.72,17,925.49,8438,False
+20278,Restaurant_278,Mumbai,Pizza,Premium,4.22,17,1183.49,787,True
+20279,Restaurant_279,Pune,Pizza,Premium,3.23,26,958.42,6339,False
+20280,Restaurant_280,Delhi,Burgers,Mid-range,4.0,13,602.42,5549,True
+20281,Restaurant_281,Pune,Indian,Premium,3.21,29,759.08,6154,False
+20282,Restaurant_282,Bangalore,Biryani,Mid-range,3.43,39,434.37,782,False
+20283,Restaurant_283,Delhi,Pizza,Premium,4.54,17,1275.53,5622,False
+20284,Restaurant_284,Hyderabad,Biryani,Budget,4.31,30,159.47,8622,False
+20285,Restaurant_285,Pune,Pizza,Premium,3.43,27,887.11,9482,False
+20286,Restaurant_286,Chennai,Desserts,Budget,4.0,18,190.12,3153,False
+20287,Restaurant_287,Chennai,Burgers,Mid-range,3.9,22,431.2,4041,True
+20288,Restaurant_288,Hyderabad,Indian,Mid-range,4.12,10,610.99,8249,False
+20289,Restaurant_289,Pune,Indian,Mid-range,4.4,15,663.04,5022,False
+20290,Restaurant_290,Pune,Chinese,Mid-range,5.0,10,305.07,6993,False
+20291,Restaurant_291,Hyderabad,Biryani,Mid-range,3.85,37,402.9,6337,True
+20292,Restaurant_292,Mumbai,Desserts,Mid-range,4.9,14,310.16,6593,True
+20293,Restaurant_293,Bangalore,South Indian,Mid-range,3.61,22,644.5,1362,True
+20294,Restaurant_294,Delhi,Chinese,Budget,3.95,14,161.17,6165,False
+20295,Restaurant_295,Hyderabad,Indian,Mid-range,3.78,24,608.28,302,False
+20296,Restaurant_296,Chennai,Biryani,Mid-range,3.8,21,313.32,4409,False
+20297,Restaurant_297,Bangalore,Burgers,Mid-range,4.11,13,459.35,1389,False
+20298,Restaurant_298,Bangalore,Chinese,Budget,4.35,12,198.0,8398,False
+20299,Restaurant_299,Mumbai,Burgers,Mid-range,4.16,29,431.73,6617,True
+20300,Restaurant_300,Chennai,Indian,Premium,4.35,21,1035.17,9586,True
+20301,Restaurant_301,Bangalore,Biryani,Budget,4.31,28,207.44,7583,False
+20302,Restaurant_302,Chennai,Burgers,Mid-range,4.15,15,461.29,7302,False
+20303,Restaurant_303,Delhi,Chinese,Budget,3.95,28,265.57,9316,False
+20304,Restaurant_304,Chennai,Indian,Mid-range,3.72,14,465.8,6802,True
+20305,Restaurant_305,Bangalore,Indian,Mid-range,3.79,26,596.44,5330,False
+20306,Restaurant_306,Pune,Chinese,Premium,4.61,28,999.83,1368,True
+20307,Restaurant_307,Chennai,Biryani,Budget,3.77,39,161.24,1397,True
+20308,Restaurant_308,Chennai,South Indian,Premium,4.27,21,662.59,7293,True
+20309,Restaurant_309,Pune,Chinese,Mid-range,4.69,27,638.65,415,False
+20310,Restaurant_310,Chennai,Chinese,Mid-range,4.24,14,546.31,8844,False
+20311,Restaurant_311,Bangalore,Biryani,Premium,4.11,26,824.26,2869,False
+20312,Restaurant_312,Delhi,Pizza,Budget,4.79,29,156.19,9358,False
+20313,Restaurant_313,Chennai,Indian,Budget,4.08,27,176.65,2101,False
+20314,Restaurant_314,Delhi,Pizza,Premium,3.83,15,684.95,9565,True
+20315,Restaurant_315,Bangalore,Pizza,Premium,4.75,17,1215.67,7934,True
+20316,Restaurant_316,Hyderabad,Pizza,Mid-range,3.83,23,682.73,5908,False
+20317,Restaurant_317,Chennai,Burgers,Budget,4.04,19,323.88,7579,True
+20318,Restaurant_318,Delhi,Desserts,Mid-range,3.78,22,409.63,6668,False
+20319,Restaurant_319,Chennai,Chinese,Mid-range,3.05,15,402.61,4066,True
+20320,Restaurant_320,Mumbai,Pizza,Mid-range,3.29,25,595.81,4550,True
+20321,Restaurant_321,Mumbai,Burgers,Budget,3.52,17,217.99,698,False
+20322,Restaurant_322,Bangalore,Burgers,Premium,4.02,22,1223.11,411,False
+20323,Restaurant_323,Pune,Desserts,Budget,4.08,13,254.58,9761,False
+20324,Restaurant_324,Delhi,Indian,Budget,4.16,28,202.3,2721,False
+20325,Restaurant_325,Delhi,Chinese,Budget,3.7,16,293.42,4807,False
+20326,Restaurant_326,Pune,Biryani,Budget,3.67,36,316.82,9997,False
+20327,Restaurant_327,Pune,South Indian,Budget,5.0,14,306.69,4057,False
+20328,Restaurant_328,Chennai,Chinese,Budget,3.69,26,229.06,1279,False
+20329,Restaurant_329,Mumbai,Burgers,Mid-range,4.2,28,455.84,7304,False
+20330,Restaurant_330,Chennai,Chinese,Mid-range,4.49,14,577.22,9079,False
+20331,Restaurant_331,Chennai,Indian,Mid-range,4.21,20,417.26,4742,False
+20332,Restaurant_332,Pune,Chinese,Budget,3.89,13,174.79,453,True
+20333,Restaurant_333,Bangalore,Desserts,Mid-range,3.49,23,580.84,4214,True
+20334,Restaurant_334,Hyderabad,Burgers,Budget,3.48,13,298.97,9677,False
+20335,Restaurant_335,Bangalore,Desserts,Mid-range,3.81,13,687.67,5227,True
+20336,Restaurant_336,Bangalore,Burgers,Premium,3.94,11,917.24,3603,False
+20337,Restaurant_337,Bangalore,Pizza,Mid-range,3.98,28,569.68,9765,False
+20338,Restaurant_338,Chennai,Burgers,Premium,3.68,28,1335.5,883,False
+20339,Restaurant_339,Chennai,Indian,Premium,3.78,10,823.68,5592,True
+20340,Restaurant_340,Chennai,Burgers,Budget,4.62,21,280.22,5872,False
+20341,Restaurant_341,Chennai,Chinese,Budget,3.54,28,316.89,5338,True
+20342,Restaurant_342,Pune,Biryani,Mid-range,3.69,36,343.17,2604,False
+20343,Restaurant_343,Mumbai,Biryani,Mid-range,3.41,28,517.39,1025,True
+20344,Restaurant_344,Delhi,Biryani,Budget,5.0,38,301.77,5666,False
+20345,Restaurant_345,Mumbai,South Indian,Mid-range,3.12,10,696.62,1843,False
+20346,Restaurant_346,Delhi,Burgers,Budget,3.84,15,316.18,6019,False
+20347,Restaurant_347,Chennai,Biryani,Premium,4.82,32,602.59,9248,False
+20348,Restaurant_348,Mumbai,Indian,Budget,4.62,10,310.26,7090,False
+20349,Restaurant_349,Delhi,Desserts,Budget,4.15,27,259.07,366,False
+20350,Restaurant_350,Hyderabad,Indian,Mid-range,4.22,12,652.26,3187,False
+20351,Restaurant_351,Bangalore,Biryani,Mid-range,3.51,37,426.16,9731,False
+20352,Restaurant_352,Delhi,Indian,Mid-range,3.31,23,672.62,9296,False
+20353,Restaurant_353,Pune,Biryani,Premium,3.7,39,1381.01,6721,False
+20354,Restaurant_354,Mumbai,Indian,Mid-range,3.77,20,417.8,5660,False
+20355,Restaurant_355,Mumbai,Chinese,Budget,4.23,16,243.4,3141,False
+20356,Restaurant_356,Hyderabad,Pizza,Budget,3.96,18,179.79,9931,False
+20357,Restaurant_357,Delhi,Desserts,Budget,4.75,14,304.24,1986,False
+20358,Restaurant_358,Bangalore,South Indian,Budget,4.12,27,253.52,5395,True
+20359,Restaurant_359,Mumbai,Desserts,Mid-range,3.27,24,398.13,9881,True
+20360,Restaurant_360,Chennai,Biryani,Premium,3.35,31,933.23,1757,False
+20361,Restaurant_361,Pune,Desserts,Mid-range,3.83,12,611.4,652,False
+20362,Restaurant_362,Chennai,Pizza,Mid-range,3.68,19,348.2,2652,False
+20363,Restaurant_363,Delhi,Pizza,Mid-range,3.99,25,566.98,5558,False
+20364,Restaurant_364,Pune,Pizza,Budget,4.35,20,271.16,4768,False
+20365,Restaurant_365,Hyderabad,Chinese,Budget,4.27,17,179.27,9450,True
+20366,Restaurant_366,Bangalore,Desserts,Mid-range,3.51,23,316.56,9240,True
+20367,Restaurant_367,Delhi,Desserts,Budget,4.54,19,184.65,7744,False
+20368,Restaurant_368,Delhi,South Indian,Mid-range,3.85,22,474.39,6857,False
+20369,Restaurant_369,Pune,Burgers,Mid-range,4.02,19,422.94,2200,True
+20370,Restaurant_370,Bangalore,Burgers,Budget,3.59,15,239.61,6343,False
+20371,Restaurant_371,Mumbai,Biryani,Mid-range,4.19,25,500.74,3648,False
+20372,Restaurant_372,Chennai,South Indian,Mid-range,4.16,25,489.55,3520,False
+20373,Restaurant_373,Mumbai,South Indian,Mid-range,4.66,27,368.98,4454,False
+20374,Restaurant_374,Hyderabad,Indian,Mid-range,3.71,29,658.78,1489,False
+20375,Restaurant_375,Bangalore,Desserts,Budget,4.04,15,260.6,8232,True
+20376,Restaurant_376,Mumbai,Pizza,Mid-range,4.17,16,350.92,6563,True
+20377,Restaurant_377,Delhi,Indian,Mid-range,4.14,25,402.19,6382,True
+20378,Restaurant_378,Delhi,Chinese,Mid-range,4.58,15,605.83,4144,False
+20379,Restaurant_379,Hyderabad,Chinese,Budget,3.65,20,349.03,7204,True
+20380,Restaurant_380,Hyderabad,South Indian,Budget,4.22,12,337.56,907,False
+20381,Restaurant_381,Bangalore,Chinese,Budget,4.25,17,344.02,9698,False
+20382,Restaurant_382,Mumbai,South Indian,Budget,3.84,10,154.04,8909,True
+20383,Restaurant_383,Delhi,Desserts,Premium,4.11,24,1160.32,1010,False
+20384,Restaurant_384,Bangalore,Burgers,Premium,4.09,24,839.71,2246,True
+20385,Restaurant_385,Bangalore,Pizza,Mid-range,4.2,15,503.86,3585,True
+20386,Restaurant_386,Delhi,Desserts,Mid-range,3.86,19,398.41,120,False
+20387,Restaurant_387,Mumbai,Chinese,Mid-range,3.65,28,641.33,1859,False
+20388,Restaurant_388,Chennai,Indian,Mid-range,4.07,18,598.78,5914,False
+20389,Restaurant_389,Hyderabad,Chinese,Mid-range,4.31,16,692.0,9143,False
+20390,Restaurant_390,Pune,Biryani,Mid-range,3.57,21,466.1,802,True
+20391,Restaurant_391,Mumbai,Pizza,Mid-range,4.39,24,648.31,8172,False
+20392,Restaurant_392,Chennai,Chinese,Mid-range,4.08,22,611.65,2455,False
+20393,Restaurant_393,Chennai,South Indian,Mid-range,3.94,29,632.78,6701,False
+20394,Restaurant_394,Delhi,Chinese,Premium,3.97,13,1289.2,4952,False
+20395,Restaurant_395,Chennai,Burgers,Mid-range,3.49,16,439.61,4716,False
+20396,Restaurant_396,Hyderabad,Desserts,Budget,4.09,17,262.09,7748,False
+20397,Restaurant_397,Bangalore,Burgers,Mid-range,3.91,25,408.92,6878,True
+20398,Restaurant_398,Mumbai,Chinese,Mid-range,4.12,29,526.79,3283,True
+20399,Restaurant_399,Pune,Indian,Budget,3.93,18,310.13,9015,True
+20400,Restaurant_400,Hyderabad,Chinese,Budget,3.77,20,255.6,6199,False
+20401,Restaurant_401,Chennai,South Indian,Mid-range,3.5,23,539.54,1382,False
+20402,Restaurant_402,Bangalore,South Indian,Mid-range,3.22,13,593.52,7153,False
+20403,Restaurant_403,Bangalore,Desserts,Premium,3.83,28,1049.09,6571,True
+20404,Restaurant_404,Chennai,Desserts,Mid-range,2.88,24,559.39,6359,False
+20405,Restaurant_405,Hyderabad,Desserts,Budget,3.36,23,161.46,7505,False
+20406,Restaurant_406,Pune,Desserts,Budget,4.38,25,255.57,1810,False
+20407,Restaurant_407,Chennai,Desserts,Budget,3.6,29,174.3,9155,False
+20408,Restaurant_408,Mumbai,South Indian,Mid-range,4.29,12,593.37,3828,False
+20409,Restaurant_409,Bangalore,Indian,Budget,4.25,15,209.93,6795,False
+20410,Restaurant_410,Delhi,Burgers,Budget,3.65,13,297.7,1181,False
+20411,Restaurant_411,Bangalore,South Indian,Budget,4.43,10,305.63,6631,True
+20412,Restaurant_412,Chennai,South Indian,Budget,4.61,27,210.08,1978,False
+20413,Restaurant_413,Pune,Chinese,Budget,3.34,17,345.25,8604,False
+20414,Restaurant_414,Chennai,Burgers,Mid-range,4.4,25,477.68,8124,True
+20415,Restaurant_415,Delhi,South Indian,Budget,3.71,29,193.57,6395,True
+20416,Restaurant_416,Delhi,Desserts,Budget,3.3,25,305.04,6150,False
+20417,Restaurant_417,Bangalore,South Indian,Premium,4.11,24,917.56,4017,True
+20418,Restaurant_418,Chennai,Chinese,Mid-range,4.25,11,570.84,3831,False
+20419,Restaurant_419,Bangalore,Chinese,Mid-range,3.97,21,332.3,151,False
+20420,Restaurant_420,Hyderabad,Pizza,Budget,4.81,20,154.35,1882,True
+20421,Restaurant_421,Chennai,Chinese,Budget,4.34,20,208.25,1393,False
+20422,Restaurant_422,Pune,Chinese,Mid-range,3.97,11,412.66,1034,False
+20423,Restaurant_423,Bangalore,Pizza,Budget,4.08,29,196.42,6493,True
+20424,Restaurant_424,Pune,South Indian,Budget,5.0,26,331.12,4791,True
+20425,Restaurant_425,Chennai,Biryani,Mid-range,4.21,21,646.94,598,False
+20426,Restaurant_426,Chennai,Chinese,Budget,4.63,18,330.58,7370,False
+20427,Restaurant_427,Mumbai,Indian,Mid-range,4.43,14,467.73,9327,True
+20428,Restaurant_428,Bangalore,Pizza,Budget,3.48,26,242.79,569,False
+20429,Restaurant_429,Chennai,Biryani,Budget,3.52,21,209.29,4934,False
+20430,Restaurant_430,Delhi,Biryani,Mid-range,3.99,20,686.17,1772,False
+20431,Restaurant_431,Delhi,Pizza,Mid-range,3.95,26,650.88,9185,False
+20432,Restaurant_432,Mumbai,Biryani,Mid-range,4.13,29,595.94,3734,False
+20433,Restaurant_433,Chennai,South Indian,Budget,4.56,19,315.53,5256,False
+20434,Restaurant_434,Bangalore,Biryani,Budget,4.37,29,195.8,6380,False
+20435,Restaurant_435,Pune,Biryani,Budget,3.34,22,159.15,563,False
+20436,Restaurant_436,Bangalore,Chinese,Mid-range,3.71,10,346.98,9431,False
+20437,Restaurant_437,Pune,Indian,Mid-range,4.74,22,514.87,8227,False
+20438,Restaurant_438,Pune,South Indian,Mid-range,4.28,24,538.18,7608,True
+20439,Restaurant_439,Pune,Chinese,Mid-range,3.3,19,688.73,428,False
+20440,Restaurant_440,Delhi,South Indian,Mid-range,3.92,12,480.47,3966,True
+20441,Restaurant_441,Hyderabad,Biryani,Mid-range,3.15,36,666.99,9431,False
+20442,Restaurant_442,Chennai,Pizza,Budget,4.48,19,174.4,1109,True
+20443,Restaurant_443,Mumbai,Pizza,Budget,4.24,25,164.44,8620,False
+20444,Restaurant_444,Mumbai,Chinese,Budget,3.91,19,210.69,8766,False
+20445,Restaurant_445,Pune,Desserts,Budget,3.97,25,305.44,9087,False
+20446,Restaurant_446,Chennai,South Indian,Premium,4.25,29,1167.42,8326,False
+20447,Restaurant_447,Chennai,Biryani,Premium,4.56,38,1491.9,265,True
+20448,Restaurant_448,Pune,Chinese,Budget,4.2,17,315.25,3779,True
+20449,Restaurant_449,Mumbai,Biryani,Budget,4.33,22,250.16,7916,True
+20450,Restaurant_450,Mumbai,Burgers,Budget,4.18,17,198.69,8678,True
+20451,Restaurant_451,Bangalore,Chinese,Mid-range,4.62,22,575.5,6806,False
+20452,Restaurant_452,Mumbai,Biryani,Premium,4.82,26,1365.38,2736,False
+20453,Restaurant_453,Pune,Burgers,Mid-range,3.7,22,428.18,6469,True
+20454,Restaurant_454,Delhi,Pizza,Mid-range,3.91,20,512.41,3137,True
+20455,Restaurant_455,Mumbai,Indian,Mid-range,4.02,24,487.52,5188,True
+20456,Restaurant_456,Mumbai,Pizza,Budget,3.69,18,287.25,1798,True
+20457,Restaurant_457,Delhi,Indian,Budget,3.84,29,272.77,2163,True
+20458,Restaurant_458,Delhi,South Indian,Mid-range,3.97,13,507.75,1291,True
+20459,Restaurant_459,Chennai,Indian,Mid-range,4.01,21,666.92,5032,False
+20460,Restaurant_460,Pune,South Indian,Mid-range,3.81,13,634.18,7275,False
+20461,Restaurant_461,Pune,Burgers,Premium,3.76,22,1144.52,7705,True
+20462,Restaurant_462,Mumbai,South Indian,Mid-range,4.03,12,425.05,5892,False
+20463,Restaurant_463,Delhi,Chinese,Budget,3.64,14,297.3,5654,False
+20464,Restaurant_464,Bangalore,Chinese,Budget,4.16,22,261.33,3557,False
+20465,Restaurant_465,Hyderabad,Biryani,Mid-range,3.44,29,400.45,6775,False
+20466,Restaurant_466,Delhi,Chinese,Budget,3.99,17,220.46,8612,True
+20467,Restaurant_467,Hyderabad,Pizza,Mid-range,4.75,18,361.2,6131,False
+20468,Restaurant_468,Mumbai,Desserts,Budget,3.89,17,212.52,6988,True
+20469,Restaurant_469,Bangalore,Biryani,Premium,4.4,24,1396.01,9591,False
+20470,Restaurant_470,Pune,Chinese,Premium,3.49,20,1138.71,5070,True
+20471,Restaurant_471,Bangalore,South Indian,Budget,3.81,26,273.38,9969,False
+20472,Restaurant_472,Pune,South Indian,Mid-range,4.3,22,630.05,1840,False
+20473,Restaurant_473,Chennai,South Indian,Premium,2.87,13,903.42,1214,False
+20474,Restaurant_474,Pune,Chinese,Budget,4.28,22,262.71,1564,False
+20475,Restaurant_475,Pune,Biryani,Mid-range,3.96,25,302.57,5853,False
+20476,Restaurant_476,Chennai,Burgers,Mid-range,3.85,23,411.03,5637,False
+20477,Restaurant_477,Mumbai,Burgers,Budget,4.65,21,316.46,4894,False
+20478,Restaurant_478,Delhi,Pizza,Budget,3.34,24,339.06,3763,False
+20479,Restaurant_479,Bangalore,South Indian,Mid-range,4.18,17,555.17,6911,False
+20480,Restaurant_480,Mumbai,South Indian,Mid-range,4.37,14,368.52,8206,False
+20481,Restaurant_481,Mumbai,Pizza,Mid-range,3.67,16,395.63,1542,False
+20482,Restaurant_482,Pune,South Indian,Budget,3.08,29,223.01,3570,False
+20483,Restaurant_483,Delhi,Indian,Mid-range,4.13,15,552.31,7166,False
+20484,Restaurant_484,Bangalore,Biryani,Mid-range,4.37,33,424.29,3810,True
+20485,Restaurant_485,Pune,Pizza,Mid-range,4.67,27,540.6,5078,False
+20486,Restaurant_486,Pune,Desserts,Mid-range,3.27,14,439.7,1529,False
+20487,Restaurant_487,Bangalore,South Indian,Mid-range,3.88,18,403.14,5068,True
+20488,Restaurant_488,Bangalore,Pizza,Mid-range,4.99,26,642.02,9546,True
+20489,Restaurant_489,Chennai,Indian,Mid-range,4.12,28,453.19,4986,True
+20490,Restaurant_490,Bangalore,Indian,Premium,4.13,14,1342.72,9274,False
+20491,Restaurant_491,Hyderabad,Biryani,Budget,4.26,22,270.75,1008,True
+20492,Restaurant_492,Pune,Chinese,Mid-range,4.01,21,517.15,5791,False
+20493,Restaurant_493,Delhi,South Indian,Budget,3.87,14,226.66,730,False
+20494,Restaurant_494,Bangalore,Desserts,Mid-range,3.91,16,572.11,7259,False
+20495,Restaurant_495,Delhi,Desserts,Mid-range,4.65,12,618.19,8242,False
+20496,Restaurant_496,Delhi,Biryani,Mid-range,4.34,36,688.57,1391,False
+20497,Restaurant_497,Hyderabad,Indian,Budget,4.17,20,207.84,8340,True
+20498,Restaurant_498,Bangalore,Indian,Budget,3.15,19,192.53,8009,True
+20499,Restaurant_499,Delhi,Biryani,Budget,3.76,32,236.49,1855,False
+20500,Restaurant_500,Pune,Indian,Mid-range,4.95,15,536.75,2329,False
