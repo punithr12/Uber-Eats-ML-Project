@@ -24,7 +24,12 @@ The objective is to build an integrated ML system that can help Uber Eats:
 
 ## Project Structure
 
-```textUber-Eats-ML-Project/
+```text
+Uber-Eats-ML-Project/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
 │   ├── Day_2_Customer_Restaurant_Segmentation.ipynb
@@ -44,6 +49,8 @@ The objective is to build an integrated ML system that can help Uber Eats:
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
 ## Final Presentation
 
 👉 [View Uber Eats ML Project Presentation](https://docs.google.com/presentation/d/11SMZWBqTgvhEOqtSMI1l_0X2mOgdAIwMveIBbmhYDXI/edit?usp=sharing)
