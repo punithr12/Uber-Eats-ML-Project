@@ -46,4 +46,4 @@ The objective is to build an integrated ML system that can help Uber Eats:
 └── .gitignore
 ## Final Presentation
 
-👉 View Uber Eats ML Project Presentation-https://docs.google.com/presentation/d/11SMZWBqTgvhEOqtSMI1l_0X2mOgdAIwMveIBbmhYDXI/edit?usp=sharing
+👉 [View Uber Eats ML Project Presentation](https://docs.google.com/presentation/d/11SMZWBqTgvhEOqtSMI1l_0X2mOgdAIwMveIBbmhYDXI/edit?usp=sharing)
