@@ -89,6 +89,8 @@ Uber-Eats-ML-Project/
 ├── README.md
 └── .gitignore
 
+
+```markdown
 ML Components
 Day 2 — Customer & Restaurant Segmentation
 Customer feature engineering
